@@ -23,6 +23,5 @@ files {
 
 -- Client scripts, including the main client-side Lua script and the configuration
 client_scripts {
-    'client/client.lua',  -- Main client-side script
-    'client/config.lua'   -- Configuration file with EnableMusicToggle
+    'client/client.lua'  -- Main client-side script
 }
