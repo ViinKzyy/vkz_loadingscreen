@@ -1,7 +1,7 @@
 # vkz_loadingscreen
 A Simple fivem loading screen with spacebar pause feature
 
-![vkz dev](https://github.com/user-attachments/assets/57ffde29-5be6-45d1-beb6-14cdb33ef523)
+<img src="https://github.com/user-attachments/assets/57ffde29-5be6-45d1-beb6-14cdb33ef523" width="300" height="300">
 
 
 This script was made by officialviinkz please join the **discord: https://discord.gg/GfS4vPFE8P**
