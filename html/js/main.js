@@ -1,4 +1,3 @@
-// Existing code (you can keep this as is)
 var count = 0;
 var thisCount = 0;
 
@@ -27,7 +26,6 @@ window.addEventListener('message', function (e) {
     (handlers[e.data.eventName] || function () { })(e.data);
 });
 
-// New code to toggle play/pause with the space bar
 
 // Get the audio element
 const audio = document.querySelector('#audio audio');
