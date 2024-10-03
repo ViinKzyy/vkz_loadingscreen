@@ -1,0 +1,71 @@
+body {
+	background-color: #000000;
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire background */
+}
+
+img {
+  width: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loadbar {
+    width: 100%;
+    background-color: #000000;
+    height: 20px;
+
+    margin-left: 2px;
+    margin-right: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+
+/* New style for the instruction box */
+.instructions-box {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    z-index: 1000; /* Ensures the box is on top of other elements */
+}
