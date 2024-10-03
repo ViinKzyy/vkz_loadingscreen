@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- BACKGROUND VIDEO -->
+<div id="overlay">
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="assets/bgvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<!-- END BG VIDEO -->
+
+<!-- BG AUDIO -->
+<div id="audio">
+    <audio controls loop autoplay hidden>
+        <source src="assets/music.mp3" type="audio/mp3">
+    </audio>
+</div>
+<!-- END BG AUDIO -->
+
+<!-- Logo Container -->
+<div class="logo-container">
+    <img src="assets/logo.png" alt="Logo" class="logo">
+</div>
+<!-- End Logo Container -->
+
+
+<!-- Instructions Box -->
+<div class="instructions-box">
+    Press Space to Mute Music
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
