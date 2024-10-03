@@ -9,6 +9,8 @@ This script was made by officialviinkz please join the **discord: https://discor
 # How to Install
 - Download file and drop in your “**resources**” folder
 - Add to your **server.cfg** file:  ***ensure vkz_loadingscreen***
+- add videos to asset folder Vkz_loadingscreen\html\assets and name it ```bgvideo``` **must be mp4 format**
+- add music in the same assets folder and name it ```music``` **must be mp3 format**
 - Install done. Have Fun !!
 
 # Controls
